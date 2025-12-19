@@ -16,6 +16,11 @@ b {
   color: #2f3234;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
 .container {
   margin-top: 80px;
 }
@@ -60,7 +65,7 @@ b {
   width: fit-content;
 }
 
-.color{
+.color {
   color: #cda662;
 }
 
@@ -147,7 +152,7 @@ b {
 }
 
 /*MENU*/
-.menu-hr1{
+.menu-hr1 {
   height: 2px;
   border-radius: 6px;
   background-color: black;
@@ -157,7 +162,7 @@ b {
   margin-top: -6px;
 }
 
-.menu-space{
+.menu-space {
   margin-top: 20px;
 }
 
@@ -222,4 +227,33 @@ footer {
 #link-int,
 #social-int {
   margin-bottom: 60px;
+}
+
+/*PIZZE*/
+.Allergie,
+.Ingredienti,
+.Prezzo {
+  margin-top: 30px;
+}
+
+.testo-inredienti,
+.testo-prezzo {
+  font-size: 1.2rem;
+  margin-left: 12px;
+}
+
+.Allergie-testo {
+  margin-left: 10px;
+  margin-top: 3.5px;
+}
+
+.icon2 {
+  height: 30px;
+  margin-left: 12px;
+}
+
+/*PIZZA MARGHERITA*/
+
+.testo-margherita {
+  margin-right: 70px;
 }
